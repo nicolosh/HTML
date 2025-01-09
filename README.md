@@ -8,6 +8,7 @@ Write the title (header) on a page by writing
    The title ...
 </h1>
 ```
+There exist also h2, h3, h4, h5 and h6 for smaller headings (subheadings)
 
 Now let's write a paragraph by writing as follows
 
