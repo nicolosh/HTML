@@ -21,14 +21,12 @@ Now let's write a paragraph by writing as follows
 
 ***
 Now let's write the body to write something on the screen by writing as follows (**better to put all the elements of an html page inside body tags** (this holds for 
-```html 
-<p>
-```
-and 
 ```html
-<h1>
+   <p> <h1> 
 ```
-and more))
+and more).
+
+Indeed ....
 
 ```html
 <body>
