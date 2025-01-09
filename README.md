@@ -20,7 +20,15 @@ Now let's write a paragraph by writing as follows
 
 
 ***
-Now let's write the body to write something on the screen by writing as follows (**better to put all the elements of an html page inside body tags** (this holds for ```html <p>``` and ```html <h1> ``` and more))
+Now let's write the body to write something on the screen by writing as follows (**better to put all the elements of an html page inside body tags** (this holds for 
+```html 
+<p>
+```
+and 
+```html
+<h1>
+```
+and more))
 
 ```html
 <body>
