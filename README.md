@@ -27,7 +27,9 @@ Indeed
 
 ```html
 <body>
-   <p> What's up? <\p> ...
+   <div>
+      <p> What's up? <\p> ...
+   </div>
 </body>
 ```
 ***
@@ -39,5 +41,21 @@ Remember that **p and h1 are at the same level of hierarchy** and another common
    <h1> Another header </h1>
 </div>
 ```
+
+Remember that the command **div** is very useful to create sections so that I can have
+```html
+<body>
+   <div>
+      <h1>Section #1<\h1>
+      <h2> Another header </h2>
+   </div>
+
+   <div>
+      <h1>Section #2<\h1>
+      <h2> Another header </h2>
+   </div>
+</body>
+```
+
 
 
