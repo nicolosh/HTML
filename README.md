@@ -87,7 +87,7 @@ Instead, for an ordered list, the **ol** command is very useful
 To add images write as follows (the final forward slash can be omitted with no formatting problems)
 ```html
 <body>
-   <img src="image-location.jpg" />
-   </body>
+   <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+</body>
 ```
 
