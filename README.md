@@ -57,5 +57,7 @@ Remember that the command **div** is very useful to create sections and can be u
 </body>
 ```
 
+Finally the command **span** is used to separate pieces of the text from the rest line of text.
+
 
 
