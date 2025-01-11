@@ -61,6 +61,15 @@ Remember that the command **div** is very useful to create sections and can be u
    Then *em* tag makes the text inside it italic while the **strong** command makes its nested text in bold.  
 
    To get the spacing between HTML elements the **<br>** has to be used (no closing tag is there).
-
+***
+The *<ul>* element should not hold raw text and won’t automatically format raw text into an unordered list of items. Individual list items must be added to the unordered list using the *<li>* tag. The *<li>* or list item tag is used to describe an item in a list.
+```html
+<body>
+   <ul>
+      <li> ciao </li>
+      <li> sono Nicolò </li>
+   </ul>
+```
+***
 
 
