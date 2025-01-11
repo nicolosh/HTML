@@ -84,5 +84,10 @@ Instead, for an ordered list, the **ol** command is very useful
 ***
 
 ## Images
-
+To add images write as follows (the final forward slash can be omitted with no formatting problems)
+```html
+<body>
+   <img src="image-location.jpg" />
+   </body>
+```
 
