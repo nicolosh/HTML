@@ -102,3 +102,6 @@ For *videos* write as follows
   <video src="videos/myVideo.mp4" width="320" height="240" controls> Video not supported </video>
 </body>
 ```
+The **width** and **height** attributes are used to set the size of the video displayed in the browser. The **controls** attribute instructs the browser to include basic video controls such as pausing and playing.
+
+The text, **Video not supported**, will only be displayed if the browser is unable to load the video.
