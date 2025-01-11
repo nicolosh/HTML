@@ -131,4 +131,7 @@ Write comments with
 
 ## Other more expressive commands replacing div command
 **nav**, **footer** for footer information (better to use, inside the footer command the **small** tag element for this information) and finally **main**.  
-The always have the <command> and the respective final </command>.
+The always have the following style like **div** 
+```html
+   <div> ... </div>
+```
