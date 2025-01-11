@@ -83,7 +83,7 @@ Instead, for an ordered list, the **ol** command is very useful
 ```
 ***
 
-## Images
+## Images and Videos addition
 To add images write as follows (the final forward slash can be omitted with no formatting problems)
 ```html
 <body>
@@ -96,4 +96,9 @@ OR
    <img src="images/gatto.jpg" alt="A cat" />
 </body>
 ```
-
+For *videos* write as follows  
+```html
+<body>
+  <video src="videos/myVideo.mp4" width="320" height="240" controls> Video not supported </video>
+</body>
+```
