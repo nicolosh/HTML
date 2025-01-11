@@ -58,7 +58,9 @@ Remember that the command **div** is very useful to create sections and can be u
 ```
 
    Finally the command **span** is used to separate pieces of the text from the rest line of text.  
-   Then *em* tag makes the text inside it italic while the **strong** command makes its nested text in bold.
+   Then *em* tag makes the text inside it italic while the **strong** command makes its nested text in bold.  
+
+   To get the spacing between HTML elements the **<br>** has to be used (no closing tag is there).
 
 
 
