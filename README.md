@@ -58,10 +58,26 @@ Remember that the command **div** is very useful to create sections and can be u
 </body>
 ```
 
-   Finally the command **span** is used to separate pieces of the text from the rest line of text.  
-   Then *em* tag makes the text inside it italic while the **strong** command makes its nested text in bold.  
+Moreover, there exists the **section** command which I can use to replace the **div** command.  
+```html
+<body>
+   <section>
+      <h1> pippo </h1>
+      <section>
+         <h1> Pluto </h1>
+      </section>
+   </section>
 
-   To get the spacing between HTML elements the **<br>** has to be used (no closing tag is there).
+   <div id="Section 2">
+      <h1>Section #2</h1>
+      <h2> Another header </h2>
+   </div>
+</body>
+```
+Finally the command **span** is used to separate pieces of the text from the rest line of text.  
+Then *em* tag makes the text inside it italic while the **strong** command makes its nested text in bold.  
+
+To get the spacing between HTML elements the **<br>** has to be used (no closing tag is there).
 ***
 The **ul** element should not hold raw text and won’t automatically format raw text into an unordered list of items. Individual list items must be added to the *Unordered list* using the **li** tag. The *li* or list item tag is used to describe an item in a list using the bullet point style.
 ```html
