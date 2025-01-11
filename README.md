@@ -123,8 +123,12 @@ The **width** and **height** attributes are used to set the size of the video di
 
 The text, **Video not supported**, will only be displayed if the browser is unable to load the video.
 
-### Comments
+## Comments
 Write comments with  
 ```html
 <! --- Text of the comment --- > 
 ```
+
+## Other more expressive commands replacing div command
+**nav**, **footer** for footer information (better to use, inside the footer command the **small** tag element for this information) and finally **main**.  
+The always have the <command> and the respective final </command>.
