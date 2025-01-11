@@ -59,6 +59,7 @@ Remember that the command **div** is very useful to create sections and can be u
 ```
 
 Moreover, there exists the **section** command which I can use to replace the **div** command.  
+Also the **header** command helps in expressing more correctly the meaning of our contents replacing the **div** command (has the same **section** command structure).
 ```html
 <body>
    <section>
