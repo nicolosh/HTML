@@ -133,5 +133,7 @@ Write comments with
 **nav**, **footer** for footer information (better to use, inside the footer command the **small** tag element for this information) and finally **main**.  
 The always have the following style like **div** 
 ```html
+<body>
    <div> ... </div>
+</body>
 ```
