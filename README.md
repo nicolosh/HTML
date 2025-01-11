@@ -42,15 +42,15 @@ Remember that **p and h1 are at the same level of hierarchy** and another common
 </div>
 ```
 
-Remember that the command **div** is very useful to create sections so that I can have
+Remember that the command **div** is very useful to create sections and can be used with the *attribute* **id** to so that I can have
 ```html
 <body>
-   <div>
+   <div id="Section 1">
       <h1>Section #1</h1>
       <h2> Another header </h2>
    </div>
 
-   <div>
+   <div id="Section 2">
       <h1>Section #2</h1>
       <h2> Another header </h2>
    </div>
