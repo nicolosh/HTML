@@ -1,6 +1,7 @@
 # HTML
 HTML from beginner to advanced ([Code Academy](https://www.codecademy.com/learn))
 
+## The following section shows commands that are composed entirely of text
 ***
 Write the title (header) on a page by writing 
 ```html
