@@ -28,7 +28,7 @@ Indeed
 ```html
 <body>
    <div>
-      <p> What's up? <\p> ...
+      <p> What's up? </p> ...
    </div>
 </body>
 ```
@@ -37,7 +37,7 @@ Indeed
 Remember that **p and h1 are at the same level of hierarchy** and another common command in *HTML* is *div*
 ```html
 <div>
-   <p> What's your name? <\p>
+   <p> What's your name? </p>
    <h1> Another header </h1>
 </div>
 ```
@@ -46,12 +46,12 @@ Remember that the command **div** is very useful to create sections so that I ca
 ```html
 <body>
    <div>
-      <h1>Section #1<\h1>
+      <h1>Section #1</h1>
       <h2> Another header </h2>
    </div>
 
    <div>
-      <h1>Section #2<\h1>
+      <h1>Section #2</h1>
       <h2> Another header </h2>
    </div>
 </body>
