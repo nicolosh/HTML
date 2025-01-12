@@ -7,6 +7,7 @@ Remember to put the following command at the beginning of every *HTML* file
 <!DOCTYPE html>
 <html>
    <head>
+      <title> Title of the page (metadata) </title>
    </head>
    <body>
       See below ...
@@ -138,10 +139,21 @@ The **width** and **height** attributes are used to set the size of the video di
 
 The text, **Video not supported**, will only be displayed if the browser is unable to load the video.
 
-## Comments
-Write comments with  
+## Comments, Linking text, images and more
+Write comments and links with (**target="_blank"** opens the link in a new window of the browser)   
 ```html
-<! --- Text of the comment --- > 
+   <! --- Text of the comment --- > 
+   <a href="https://www.wikipedia.org/" target="_blank"> This Is A Link To Wikipedia </a>
+   <a href="./contact.html"> Contact </a> (this links the current HTML file to another html file contact.html contained inside the same folder in which contact.html is stored. It is possible to add links linking to the same page in which they are stored)
+```
+**href** can be used to link the relative path not necessarily a URL link (often are LINKS though)
+
+To turn **images into links** write as follows
+
+```html
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">
+   <img src="https://www.Prickly_Pear_Closeup.jpg" alt="A red prickly pear fruit"/>
+</a>
 ```
 
 ## Other more expressive commands replacing div command
