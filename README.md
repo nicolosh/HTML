@@ -6,9 +6,15 @@ Remember to put the following command at the beginning of every *HTML* file
 ```html
 <!DOCTYPE html>
 <html>
+   <head>
+   </head>
+   <body>
+      See below ...
+   </body>
 
 </html>
 ```
+Inside the previous block of code insert the following commands.
 
 ## The following sections shows commands that are composed entirely of text
 ***
