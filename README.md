@@ -139,7 +139,7 @@ The **width** and **height** attributes are used to set the size of the video di
 
 The text, **Video not supported**, will only be displayed if the browser is unable to load the video.
 
-## Comments, Linking text, images and more
+## Comments, Linking text, images and more (tables)
 Write comments and links with (**target="_blank"** opens the link in a new window of the browser)   
 ```html
    <!-- Text of the comment --> 
@@ -165,6 +165,21 @@ To link elements inside the same webpage it is needed to give an attribute to ea
 </ol>
 
 ```
+
+For creating tables write as follows:  
+```html
+<table>
+   <tr>
+      <td> Element 1 of the first row of the table </td>
+      <td> Element 2 of the first row of the table </td>
+      ...
+  </tr>
+  <tr>
+      <td> Another element inserted into the SECOND row of the table </td>
+  </tr>
+</table>
+```
+where the table's row element is **<tr>**.
 
 ## Other more expressive commands replacing div command
 **nav**, **footer** for footer information (better to use, inside the footer command the **small** tag element for this information) and finally **main**.  
