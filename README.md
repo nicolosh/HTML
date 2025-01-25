@@ -240,6 +240,7 @@ OR it's better better to change table's style using *CSS* language such follows:
 ```css
 table, th, td {
   border: 1px solid black;
+  font-size: 13px;
   font-family: Arial, sans-serif;
   text-align: center;
 }
