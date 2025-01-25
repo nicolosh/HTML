@@ -168,18 +168,83 @@ To link elements inside the same webpage it is needed to give an attribute to ea
 
 For creating tables write as follows:  
 ```html
-<table>
-   <tr>
+<table border="1">
+   <tr> <!-- Row 1 -->
+      <th scope="col"> Pippo </th>
       <td> Element 1 of the first row of the table </td>
       <td> Element 2 of the first row of the table </td>
       ...
   </tr>
-  <tr>
+  <tr> <!-- Row 2 -->
+      <th scope="row"> Pluto </th>
       <td> Another element inserted into the SECOND row of the table </td>
   </tr>
 </table>
 ```
 where the table's row element is **<tr>**.
+To add titles to rows and columns, you can use the table heading element: **<th>**.
+The **border** field represents the thickness of the table's border. 
+
+OR to make data inside **td** span columns using the **colspan** attribute or, analogously, can span multiple rows using the **rowspan** attribute
+```html
+<table>
+  <tbody>
+     <thead> <!-- the **thead** element sections off the table’s column headings --> 
+     <tr>
+       <th>Monday</th>
+       <th>Tuesday</th>
+       <th>Wednesday</th>
+     </tr>
+    </thead>
+    <tr>
+       <td colspan="2">Out of Town</td>
+       <td rowspan="2">Back in Town</td>
+     </tr>
+   </tbody>
+</table>
+```
+Final example of how to use **tbody**, **thead** and **tfoot** is
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>Revenue</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Q1</th>
+      <td>$10M</td>
+      <td>$7.5M</td>
+    </tr>
+    <tr>
+      <th>Q2</th>
+      <td>$12M</td>
+      <td>$5M</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <td>$22M</td>
+      <td>$12.5M</td>
+    </tr>
+  </tfoot>
+</table>
+```
+
+***
+OR it's better better to change table's style using *CSS* language such follows:
+```css
+table, td {
+  border: 1px solid black;
+}
+```
+***
+
+Long tables can be sectioned off using the table body element: **<tbody>**.
 
 ## Other more expressive commands replacing div command
 **nav**, **footer** for footer information (better to use, inside the footer command the **small** tag element for this information) and finally **main**.  
