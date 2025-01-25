@@ -238,10 +238,13 @@ Final example of how to use **tbody**, **thead** and **tfoot** is
 ***
 OR it's better better to change table's style using *CSS* language such follows:
 ```css
-table, td {
+table, th, td {
   border: 1px solid black;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 ```
+
 ***
 
 Long tables can be sectioned off using the table body element: **<tbody>**.
