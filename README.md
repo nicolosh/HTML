@@ -80,7 +80,7 @@ Also the **header** command helps in expressing more correctly the meaning of ou
 <body>
    <section>
       <h1> pippo </h1>
-      <section>
+      <section class="Pluto">
          <h1> Pluto </h1>
       </section>
    </section>
@@ -258,3 +258,84 @@ The always have the following style like **div**
    <div> ... </div>
 </body>
 ```
+
+### FORMS
+The **<form>** element is a great tool for collecting information, but then we need to send that information somewhere else for processing. We need to supply the **<form>** element with both the location of where the **<form>**‘s information goes and what HTTP request to make.
+```html
+<form action="/example.html" method="POST">
+  <h1>Creating a form</h1>
+  <p>Looks like you want to learn how to create an HTML form. Well, the best way to learn is to play around with it.</p>
+</form>
+```
+
+The following produces a text input field
+```html
+<form action="/example.html" method="POST">
+  <label for="meal">What do you want to eat?</label>
+  <br>
+  <input type="text" name="food" id="meal" value="fish">
+</form>
+```
+**for** attribute must be the same as the **id** meal inside the **input** attribute.
+
+To create an input form where **PASSWORDS** are entered do as follows
+
+```html
+<form>
+  <label for="user-password">Password: </label>
+  <input type="password" id="user-password" name="user-password">
+</form>
+```
+
+If one wants to make inputs for inputing numbers
+
+```html 
+<form>
+  <label for="years"> Years of experience: </label>
+  <input id="years" name="years" type="number" step="1">
+</form>
+<hr>
+```
+otherwise if one wants to create an input element with a variable number to be inserted, create a **slider** using the **type="range"** attribute
+
+```html
+<form>
+  <label for="volume"> Volume Control</label>
+  <span>Rare</span>
+  <input id="volume" name="volume" type="range" min="0" max="100" step="1">
+  <span>Well done</span>
+</form>
+```
+
+the **span** attribute is used to set the meaning of the numbers in the slider in the case min and max values are selected.
+
+Checkbox inputs:
+
+```html
+<form>
+  <span>Choose your pizza toppings:</span>
+  <br>
+  <label for="cheese">Extra cheese</label>
+  <input id="cheese" name="topping" type="checkbox" value="cheese">
+  <br>
+  <label for="pepperoni">Pepperoni</label>
+  <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+  <br>
+  <label for="anchovy">Anchovy</label>
+  <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+</form>
+```
+
+As can be seen each **<input>** has the same value for the name attribute. Using the same name for each checkbox groups the **<input>s** together. However, each **<input>** has a unique id to pair with a **<label>**.
+
+***
+**Radio buttons**
+<form>
+  <p>What is sum of 1 + 1?</p>
+  <input type="radio" id="two" name="answer" value="2">
+  <label for="two">2</label>
+  <br>
+  <input type="radio" id="eleven" name="answer" value="11">
+  <label for="eleven">11</label>
+</form>
+***
