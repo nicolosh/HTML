@@ -330,6 +330,7 @@ As can be seen each **<input>** has the same value for the name attribute. Using
 
 ***
 **Radio buttons**
+```html
 <form>
   <p>What is sum of 1 + 1?</p>
   <input type="radio" id="two" name="answer" value="2">
@@ -338,4 +339,20 @@ As can be seen each **<input>** has the same value for the name attribute. Using
   <input type="radio" id="eleven" name="answer" value="11">
   <label for="eleven">11</label>
 </form>
+```
+
+**Dropdown list**
+```html
+<form>
+  <label for="lunch">What's for lunch?</label>
+  <select id="lunch" name="lunch">
+    <option value="pizza">Pizza</option>
+    <option value="curry">Curry</option>
+    <option value="salad">Salad</option>
+    <option value="ramen">Ramen</option>
+    <option value="tacos">Tacos</option>
+  </select>
+</form>
+```
+
 ***
